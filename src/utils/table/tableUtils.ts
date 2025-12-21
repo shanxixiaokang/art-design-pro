@@ -104,6 +104,8 @@ function extractPagination(
     if (result.size !== undefined) break
   }
 
+  console.log('hh2')
+
   if (result.current === undefined && result.size === undefined) return undefined
   return result
 }
